@@ -10,6 +10,8 @@ export class CoffeesController {
 
     constructor(private readonly coffeeservice: CoffeesService) {
 
+        console.log("Coffees controller  created")
+
     }
 
     @Get()
